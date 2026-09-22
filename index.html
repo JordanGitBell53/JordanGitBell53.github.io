@@ -3,21 +3,21 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Jordan Bell is a cultural analyst turning complex signals into clear stories.">
-	<title>Jordan Campbell| Cultural Analyst</title>
+	<meta name="description" content="Jordan Campbell is a cultural analyst turning complex signals into clear stories.">
+	<title>Jordan Campbell | Cultural Analyst</title>
 	<style>
 		:root {
-			--ink: #18252f;
-			--muted: #66747c;
-			--paper: #f2f0ea;
-			--panel: #fbfaf6;
-			--line: #d7d4cc;
-			--blue: #285a70;
-			--blue-dark: #183a4b;
-			--blue-soft: #d7e2e4;
-			--brown: #9b6544;
-			--brown-dark: #70442e;
-			--gold: #c79a5c;
+			--ink: #0f1720;
+			--muted: #5d6872;
+			--paper: #f3f5f7;
+			--panel: #ffffff;
+			--line: #d8dfe6;
+			--blue: #274d6d;
+			--blue-dark: #101c2a;
+			--blue-soft: #e5edf4;
+			--brown: #8b6a50;
+			--brown-dark: #5f4638;
+			--gold: #b9965f;
 		}
 
 		* { box-sizing: border-box; }
@@ -41,10 +41,10 @@
 		}
 		a { color: inherit; text-decoration: none; }
 		.wrap { width: min(1180px, calc(100% - 48px)); margin: 0 auto; }
-		.eyebrow { color: var(--brown-dark); font: 700 .72rem/1.2 Arial, sans-serif; letter-spacing: .16em; text-transform: uppercase; }
+		.eyebrow { color: var(--blue); font: 700 .72rem/1.2 Arial, sans-serif; letter-spacing: .16em; text-transform: uppercase; }
 		.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
 
-		header { padding: 24px 0 20px; border-bottom: 1px solid var(--line); position: relative; z-index: 2; background: rgba(242, 240, 234, .88); }
+		header { padding: 24px 0 20px; border-bottom: 1px solid var(--line); position: relative; z-index: 2; background: rgba(255, 255, 255, .9); }
 		nav { display: flex; align-items: center; justify-content: space-between; gap: 28px; }
 		.brand { display: flex; align-items: center; gap: 11px; font: 700 .82rem Arial, sans-serif; letter-spacing: .12em; text-transform: uppercase; }
 		.brand-mark { display: grid; place-items: center; width: 34px; height: 34px; color: var(--paper); background: var(--blue-dark); font: 700 1rem Georgia, serif; }
@@ -52,13 +52,13 @@
 		.nav-links a { padding: 8px 0; border-bottom: 1px solid transparent; }
 		.nav-links a:hover, .nav-links a:focus { color: var(--blue); border-color: var(--brown); }
 		.status { display: flex; align-items: center; gap: 8px; color: var(--muted); font: .72rem Arial, sans-serif; }
-		.status::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: #6b8b72; box-shadow: 0 0 0 4px #dce6dc; }
+		.status::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: #5f8bb2; box-shadow: 0 0 0 4px #dfeaf4; }
 
 		.hero { padding: 76px 0 56px; display: grid; grid-template-columns: 1.05fr .95fr; align-items: end; gap: 72px; }
 		h1 { max-width: 700px; margin: 14px 0 22px; font-size: clamp(3.3rem, 7vw, 6.8rem); font-weight: 400; line-height: .92; letter-spacing: -.06em; }
 		.hero-intro { max-width: 530px; margin: 0; color: var(--muted); font: 1.08rem/1.65 Arial, sans-serif; }
 		.hero-intro strong { color: var(--ink); font-weight: 700; }
-		.hero-note { align-self: start; justify-self: end; max-width: 310px; padding-top: 16px; border-top: 3px solid var(--brown); color: var(--blue-dark); font-size: 1.22rem; line-height: 1.25; }
+		.hero-note { align-self: start; justify-self: end; max-width: 310px; padding-top: 16px; border-top: 3px solid var(--blue); color: var(--blue-dark); font-size: 1.22rem; line-height: 1.25; }
 		.hero-note small { display: block; margin-top: 15px; color: var(--muted); font: .72rem/1.5 Arial, sans-serif; text-transform: uppercase; letter-spacing: .12em; }
 
 		.snapshot { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
@@ -83,7 +83,7 @@
 		.principle p { margin: 0; color: var(--muted); font: .8rem/1.5 Arial, sans-serif; }
 
 		.work-section { background: var(--blue-dark); color: var(--paper); }
-		.work-section .eyebrow { color: #d8a773; }
+		.work-section .eyebrow { color: #c5a77a; }
 		.work-section .section-copy { color: #adbdc2; }
 		.work-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 18px; }
 		.project { min-height: 340px; padding: 27px; display: flex; flex-direction: column; justify-content: space-between; background: #234d60; border: 1px solid rgba(255,255,255,.13); transition: transform .2s ease, background .2s ease; }
@@ -117,7 +117,7 @@
 
 		footer { padding: 30px 0; background: #111e25; color: #b2c0c2; }
 		.footer-inner { display: flex; justify-content: space-between; gap: 20px; font: .7rem Arial, sans-serif; letter-spacing: .08em; text-transform: uppercase; }
-		.footer-inner a { color: #e0b17f; }
+		.footer-inner a { color: #caa980; }
 		@media (max-width: 760px) {
 			.wrap { width: min(100% - 32px, 560px); }
 			.nav-links { gap: 13px; } .status { display: none; }
@@ -135,7 +135,7 @@
 	<header>
 		<div class="wrap">
 			<nav aria-label="Main navigation">
-				<a class="brand" href="#top"><span class="brand-mark">JB</span><span>Jordan Bell</span></a>
+				<a class="brand" href="#top"><span class="brand-mark">JC</span><span>Jordan Campbell</span></a>
 				<div class="nav-links"><a href="#about">About</a><a href="#work">Work</a><a href="#method">Method</a></div>
 				<span class="status">Available for select projects</span>
 			</nav>
@@ -193,7 +193,7 @@
 		</section>
 	</main>
 
-	<footer><div class="wrap footer-inner"><span>Jordan Bell / Cultural analysis</span><span>New York, NY / 40.7128 N</span><a href="mailto:hello@jordanbell.co">hello@jordanbell.co</a></div></footer>
+	<footer><div class="wrap footer-inner"><span>Jordan Campbell / Cultural analysis</span><span>New York, NY / 40.7128 N</span><a href="mailto:hello@jordancampbell.co">hello@jordancampbell.co</a></div></footer>
 </body>
 </html>
 
